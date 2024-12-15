@@ -22,13 +22,14 @@ const App = () => {
     checkAuth();
   }, [checkAuth]);
 
-  console.log({authUser});
+  console.log({ authUser });
 
-  if ( isCheckingAuth && !authUser ) return (
+  if ( isCheckingAuth && !authUser ) 
+    return (
     <div className="flex justify-center items-center h-screen">
       <Loader className="size-10 animate-spin"/>
     </div>
-  )
+  );
   
   return (
     <div data-theme={theme}>
@@ -47,4 +48,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
