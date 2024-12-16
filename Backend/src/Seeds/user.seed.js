@@ -5,7 +5,6 @@ import User from "../Models/user.model.js";
 config();
 
 const seedUsers = [
-  // Female Users
   {
     email: "emma.thompson@example.com",
     fullName: "Emma Thompson",
@@ -111,5 +110,4 @@ const seedDatabase = async () => {
   }
 };
 
-// Call the function
 seedDatabase();
