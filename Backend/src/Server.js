@@ -9,7 +9,6 @@ import path from "path";
 import { app, server } from "./Lib/socket.js";
 
 dotenv.config();
-const app = express();
 
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
