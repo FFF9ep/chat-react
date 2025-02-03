@@ -6,7 +6,7 @@ import { connectDB } from "./Lib/db.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import path from "path";
-import { app, server } from "./Lib/socket.js";
+import { app, server } from "./Lib/socket.js"; //live
 
 dotenv.config();
 
