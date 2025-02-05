@@ -3,7 +3,7 @@ import authRoutes from "./Routes/auth.route.js";
 import messageRoutes from "./Routes/message.route.js";
 import dotenv from "dotenv";
 import { connectDB } from "./Lib/db.js";
-import cookieParser from "cookie-parser";
+import cookieParser from "cookie-parser"; //cookie parser
 import cors from "cors";
 import path from "path";
 import { app, server } from "./Lib/socket.js"; //live
